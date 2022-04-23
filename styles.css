@@ -1,0 +1,31 @@
+html,body{
+  text-align: center;
+}
+
+.grid{
+    border: 1px solid black;
+    height: 480px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto
+}
+
+.grid div {
+    height: 80px;
+    width: 80px;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 40px;
+}
+
+.player-two{
+    background-color: blue;
+    border-radius: 40px;
+}
+
+#current-player{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
